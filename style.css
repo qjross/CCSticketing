@@ -1,9 +1,70 @@
-.navbar{
-display:flex;
-    justify-content: space-between;
-    align-items:center;
+.flex-container {
+  display: flex;
+  background-color: #996600;
+    color:#FFFFFF;
+ justify-content:center;
+    
 }
 
-.nav-links{
-    display:flex;
+.flex-container > div {
+    margin: 15px;
+    font-size:20px;
+}
+
+.nchsaaImage{
+    display: block;
+  float:left;
+  width: 150px;
+    height:150px;
+}
+
+.shsgoldenlions{
+    display: block;
+  float:right;
+  width: 150px;
+    height:150px;
+}
+
+#kmhs{
+  display: flex;
+  background-color: #EFE14D;
+    color:#000000;
+ justify-content:center;
+}
+
+#cresthigh{
+  display: flex;
+  background-color: #0B3726;
+    color:#000000;
+ justify-content:center;
+}
+
+#burnshigh{
+  display: flex;
+  background-color: #06A6E0;
+    color:#000000;
+ justify-content:center;
+}
+
+.kingsMountainMounties{
+ display: block;
+  float:right;
+  width: 150px;
+    height:150px;
+    background-color:#EFE14D;
+}
+
+.burnsBulldogs{
+    display:block;
+    float:right;
+    width:150px;
+    height:150px;
+}
+
+.crestChargers{
+    display:block;
+    float:right;
+    width:150px;
+height:150px;
+background-color:white;
 }

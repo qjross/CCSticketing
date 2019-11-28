@@ -1,0 +1,23 @@
+HEX CODE MASTER LIST:
+
+Burns Bulldogs:
+Carolina Blue: #06A6E0
+Gold: #FED032
+Silver: #CFD3D4
+Black: #131313
+White: #FFFFFF
+
+Crest Chargers:
+Forest Green: #0C3726
+Gold: #EEB503
+White: #FFFFFF
+
+Kings Mountain Mountaineers:
+Yellow: #EBE343
+Black: #2F2F2F
+Off-White: #F3EFEC
+
+Shelby Golden Lions:
+Old Gold: #996600
+Full Black: #000000
+White: #FFFFFF
