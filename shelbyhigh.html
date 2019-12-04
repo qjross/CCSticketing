@@ -3,27 +3,144 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS, other stylesheet and scripts -->
-    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     
-    
+    <script src="./script.js"></script>
     
     <div class="flex-container">
         <img src="nchsaa.png" class="img-responsive nchsaaImage" alt="NCHSAA">
-        <div><a href="#" class="nav-link disabled">Shelby</a></div>
-        <div><a href="#" class="nav-link">Kings Mountain</a></div>
+        <div><a href="#" class="nav-link disabled" id="shsLink">Shelby</a></div>
+        <div><a href="#" class="nav-link" id="kmLink">Kings Mountain</a></div>
         <div><a href="#" class="nav-link">Home</a></div>
-        <div><a href="#" class="nav-link">Crest</a></div>
-        <div><a href="#" class="nav-link">Burns</a></div>
+        <div><a href="#" class="nav-link" id="crestLink">Crest</a></div>
+        <div><a href="#" class="nav-link" id="burnsLink">Burns</a></div>
         <img src="goldenlions.jpg" class="img-responsive shsgoldenlions" alt="Shelby Golden Lions">
     </div>
 </head>
 <body>
-      <ul class="footballSchedule2019">
-    <div class="col-sm-4">
-          <p>Freedom at Shelby</p>
-          </div>
-    </ul>
+    <div class="jumbotron jumbotron-fluid alert-lions">
+    <h1>FOURTH ROUND TICKETS VS. BURNS ON SALE NOW!</h1>
+    </div>
+    
+   
+        
+
+      
+    
+    <h1>Ticket Packages</h1>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+        <h3>Basic Season Ticket Package</h3>
+            <p>The base package for the </p>
+        </div>
+        <div class="col-4">
+        <h3>County 3-Pack</h3>
+        </div>
+        <div>
+            <h3>Season Ticket Deluxe</h3>
+        </div>
+    </div>
+     <div class="row">
+       <div class="col-sm-2 px-md-2">
+            <div class="vertical-menu">
+           <ul>
+               <p>Sport</p>
+               <li class="nav-item">Football</li>
+               <li class="nav-item">Basketball</li>
+               <li class="nav-item">Baseball</li>
+                </ul>
+           </div>
+        </div>    
+        
+    <div class="container col-sm-10">
+    <table id="shsSchedule" class="table table-striped">
+<thead>
+    <h1>Single Game Tickets</h1>
+<tr>
+<th><span>Date</span></th>
+<th><span>Opponent</span></th>
+  <th><span>Availability</span></th>
+</thead>
+  <tbody>
+    <tr>
+      <td>8/23</td>
+      <td>@ Freedom</td>
+      <td>Check With Freedom High Ticketing</td>
+    </tr>
+    <tr>
+      <td>8/30</td>
+      <td>A.C. Reynolds</td>
+      <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    </tr>
+    <tr>
+      <td>9/13</td>
+      <td style="flex-basis: auto; white-space: normal">Crest</td>
+      <td><button type="button" class="btn btn-primary">$8.00</button></td>
+    </tr>
+    <tr class="alert alert-warning">
+      <td>9/20</td>
+      <td>@ Kings Mountain</td>
+      <td><button type="button" class="btn btn-primary">$8.00</button></td>
+    </tr>
+    <tr>
+    <td>9/27</td>
+    <td>@ East Gaston</td>
+    <td>Check With East Gaston High Ticketing</td>
+    </tr>
+    <tr>
+    <td>10/4</td>
+    <td>R-S Central</td>
+    <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    </tr>
+    <td>10/11</td>
+    <td>@ Chase</td>
+    <td>Check With Chase High Ticketing</td>
+    <tr>
+    <td>10/18</td>
+    <td>Burns</td>
+    <td><button type="button" class="btn btn-primary">$8.00</button></td>
+    </tr>
+    <tr>
+    <td>11/1</td>
+    <td>East Rutherford</td>
+    <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    </tr>
+    <tr>
+    <td>11/8</td>
+    <td>@ South Point</td>
+    <td>Check With South Point High Ticketing</td>
+</tr>
+    <tr>
+    <td>11/15</td>
+    <td>NCHSAA First Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>11/22</td>
+    <td>NCHSAA Second Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>11/29</td>
+    <td>NCHSAA Third Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>12/6</td>
+    <td>NCHSAA Fourth Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>12/13</td>
+    <td>NCHSAA 2AA Championship @ BB&T Field, Winston-Salem, NC</td>
+    <td>TBD</td>
+    </tr>
+        </tbody>
+    </table>
+        </div>
+    </div>
 </body>
 </html>

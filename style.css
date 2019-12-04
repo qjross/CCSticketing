@@ -68,3 +68,22 @@
 height:150px;
 background-color:white;
 }
+
+.nav-link{
+    color:white;
+    
+}
+
+.disabled {
+    color:white;
+}
+
+.alertLions{
+    color:black;
+}
+
+table, th, td{
+  border: 1px solid black;
+    
+    
+}
