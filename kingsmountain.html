@@ -3,27 +3,163 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS, other stylesheet and scripts -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     
     
+    <nav class="navbar"> 
+    <div class="accountSettings">
+        <a href="/account-management.html">Login</a></div>
+        <div class="accountCreate"><a href="/create-account.html">Create Account</a>
+        </div>
+    </nav>
+    
     
     <div class="flex-container" id="kmhs">
         <img src="nchsaa.png" class="img-responsive nchsaaImage" alt="NCHSAA">
-       <div><a href="#" class="nav-link">Shelby</a></div>
-        <div><a href="#" class="nav-link disabled">Kings Mountain</a></div>
+         <div><a href="#" class="nav-link" id="shsLink">Shelby</a></div>
+        <div class="nav-link disabled">Kings Mountain</div>
         <div><a href="#" class="nav-link">Home</a></div>
-        <div><a href="#" class="nav-link">Crest</a></div>
-        <div><a href="#" class="nav-link">Burns</a></div>
-        <img src="output-onlinepngtools(1).png" class="img-responsive kingsMountainMounties" alt="Kings Mountain Mountaineers">
+        <div><a href="#" class="nav-link" id="crestLink">Crest</a></div>
+        <div><a href="#" class="nav-link" id="burnsLink">Burns</a></div>
+        <img src="output-onlinepngtools(1).png" class="img-responsive kingsMountainMounties" alt="Kings Mountain HS">
     </div>
 </head>
 <body>
-      <ul class="footballSchedule2019">
-    <div class="col-sm-4">
-          <p>Freedom at Shelby</p>
-          </div>
-    </ul>
-</body>
+   <div class="jumbotron jumbotron-fluid">
+    <h1>FOURTH ROUND TICKETS VS. SHELBY ON SALE NOW!</h1>
+    </div>
+    
+   
+        
+
+      
+    
+    <h1>Ticket Packages</h1>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+        <h3>Basic Season Ticket Package</h3>
+            <p>The traditional, base package for the casual, yet committed fan! Package includes tickets to all home games only.</p>
+            <button class="btn btn-primary">$24.00</button>
+        </div>
+        <div class="col-4">
+        <h3>County 3-Pack</h3>
+            <p>Only interested in the county games? No problem. Not only will this package take into account all three county matchups, but you get them at a 15% discount as opposed to getting them separately!</p>
+            <button class="btn btn-primary">$21.00</button>
+        </div>
+        <div class="col-4">
+            <h3>Season Ticket Deluxe</h3>
+            <p>Only for the die-hards! Not only will this cover the first two tiers, but the entire postseason is included as well!</p>
+            <button class="btn btn-primary">$75.00</button>
+        </div>
+    </div>
+     <div class="row">
+       <div class="col-sm-2 px-md-2">
+            <div class="vertical-menu">
+           <ul>
+               <p>Sport</p>
+               <li class="nav-item">Football</li>
+               <li class="nav-item">Basketball</li>
+               <li class="nav-item">Baseball</li>
+                </ul>
+           </div>
+        </div>    
+        
+    <div class="container col-sm-10">
+    <table id="crestSchedule" class="table table-striped">
+<thead>
+    <h1>Single Game Tickets</h1>
+<tr>
+<th><span>Date</span></th>
+<th><span>Opponent</span></th>
+  <th><span>Availability</span></th>
+</thead>
+  <tbody>
+    <tr>
+      <td>8/23</td>
+      <td>South Point</td>
+      <td><button class="btn btn-primary">$8.00</button></td>
+    </tr>
+    <tr>
+      <td>8/30</td>
+      <td>@ T.C. Roberson</td>
+      <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    </tr>
+    <tr>
+      <td>9/6</td>
+      <td style="flex-basis: auto; white-space: normal">Burns</td>
+      <td><button type="button" class="btn btn-primary">$8.00</button></td>
+    </tr>
+    <tr>
+      <td>9/13</td>
+      <td>@ Shelby</td>
+      <td><button type="button" class="btn btn-primary">$8.00</button></td>
+    </tr>
+    <tr>
+    <td>9/20</td>
+    <td>Freedom</td>
+    <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    </tr>
+    <tr>
+    <td>9/27</td>
+    <td>@ Forestview</td>
+    <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    </tr>
+    <td>10/4</td>
+    <td>Stuart Cramer</td>
+    <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    <tr>
+    <td>10/11</td>
+    <td>@ Ashbrook</td>
+    <td><button type="button" class="btn btn-primary">$8.00</button></td>
+    </tr>
+    <tr>
+      <td>10/18</td>
+        <td>Hunter Huss</td>
+        <td><button class="btn btn-primary">$6.00</button></td>
+      </tr>  
+    <tr>
+    <td>10/24</td>
+    <td>@ North Gaston</td>
+    <td><button type="button" class="btn btn-primary">$6.00</button></td>
+    </tr>
+    <tr>
+    <td>11/8</td>
+    <td>Kings Mountain</td>
+    <td><button type="button" class="btn btn-primary">$8.00</button></td>
+</tr>
+    <tr>
+    <td>11/15</td>
+    <td>NCHSAA First Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>11/22</td>
+    <td>NCHSAA Second Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>11/29</td>
+    <td>NCHSAA Third Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>12/6</td>
+    <td>NCHSAA Fourth Round</td>
+    <td>TBD</td>
+    </tr>
+    <tr>
+    <td>12/13</td>
+    <td>NCHSAA 3A Championship @ Carter-Finley Stadium, NC State</td>
+    <td>TBD</td>
+    </tr>
+        </tbody>
+    </table>
+        
+        </div>
+    </div>
+        </body>
 </html>

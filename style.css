@@ -1,6 +1,14 @@
-.flex-container {
+#shelbyHigh {
   display: flex;
   background-color: #996600;
+    color:#FFFFFF;
+ justify-content:center;
+    
+}
+
+#defaultContainer {
+  display: flex;
+  background-color: silver;
     color:#FFFFFF;
  justify-content:center;
     
@@ -85,5 +93,32 @@ background-color:white;
 table, th, td{
   border: 1px solid black;
     
-    
+}
+
+.vertical-menu{
+    background-color:silver;
+}
+
+.crestlinkDisabled{
+    color:#EEB503;
+}
+
+#accountBar{
+    display:flex;
+    justify-content:center;
+}
+
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+
+.registration{
+    background-color:silver;
+    color:white;
 }

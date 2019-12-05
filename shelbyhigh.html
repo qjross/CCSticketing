@@ -9,9 +9,15 @@
     
     <script src="./script.js"></script>
     
-    <div class="flex-container">
+    <nav class="navbar" id="accountBar"> 
+    <div class="accountSettings"><a href="/account-management.html">Login</a></div>
+        <div class="accountCreate"><a href="/create-account.html">Create Account</a>
+        </div>
+    </nav>
+    
+    <div class="flex-container" id="shelbyHigh">
         <img src="nchsaa.png" class="img-responsive nchsaaImage" alt="NCHSAA">
-        <div><a href="#" class="nav-link disabled" id="shsLink">Shelby</a></div>
+        <div><a href="#" class="nav-link linkDisabled">Shelby</a></div>
         <div><a href="#" class="nav-link" id="kmLink">Kings Mountain</a></div>
         <div><a href="#" class="nav-link">Home</a></div>
         <div><a href="#" class="nav-link" id="crestLink">Crest</a></div>
@@ -34,13 +40,17 @@
     <div class="row">
         <div class="col-4">
         <h3>Basic Season Ticket Package</h3>
-            <p>The base package for the </p>
+            <p>The traditional, base package for the casual, yet committed fan! Package includes tickets to all home games only.</p>
         </div>
         <div class="col-4">
         <h3>County 3-Pack</h3>
+            <p>Only interested in the county games? No problem. Not only will this package take into account all three county matchups, but you get them at a 15% discount as opposed to getting them separately!</p>
+            <button class="btn btn-primary">$21.00</button>
         </div>
-        <div>
+        <div class="col-4">
             <h3>Season Ticket Deluxe</h3>
+            <p>Only for the die-hards! Not only will this cover the first two tiers, but the entire postseason is included as well!</p>
+            <button class="btn btn-primary"></btn>
         </div>
     </div>
      <div class="row">
@@ -140,7 +150,8 @@
     </tr>
         </tbody>
     </table>
+        
         </div>
     </div>
-</body>
+        </body>
 </html>

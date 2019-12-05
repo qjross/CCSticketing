@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS, other stylesheet and scripts -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    <nav class="navbar"> 
+    <div class="accountSettings">
+        <a href="/account-management.html">Login</a></div>
+        <div class="accountCreate"><a href="/create-account.html">Create Account</a>
+        </div>
+    </nav>
+    
+        <div class="flex-container" id="defaultContainer">
+        <img src="nchsaa.png" class="img-responsive nchsaaImage" alt="NCHSAA">
+         <div><a href="shelbyhigh.html" class="nav-link" id="shsLink">Shelby</a></div>
+            <div><a href="kingsmountain.html" class="nav-link" id="kmLink">Kings Mountain</a></div>
+        <div><a href="index.html" class="nav-link">Home</a></div>
+        <div><a href="cresthigh.html" class="nav-link" id="crestLink">Crest</a></div>
+        <div><a href="burnshigh.html" class="nav-link" id="burnsLink">Burns</a></div>
+        </div>
+</head>
+<body>
+    <div class="container registration">
+        <form action="/create-account.php">
+    <div class="form">
+            <h2>Just enter your information, and we'll get you started!</h2>
+        <div class="form-content">
+        <div class="row">
+            <div class="col-md-4">
+            <div class="nameEmail">
+                <input type="text" size="30" class="firstnameValue" placeholder="First Name " value=""/>
+                <br>
+                <input type="text" size="30" class="lastnameValue" placeholder="Last Name " value=""/>
+                <br>
+                <input type="text" size="30" class="emailValue" placeholder="Email " value=""/>
+                <br>
+                
+                </div>
+            </div>
+            <div class="col-md-4">
+            <div class="addressBar">
+                <input type="text" size="50" class="streetAddress" placeholder="Street Address" value=""/>
+                <input type="text" size="20" class="city" placeholder="City" value=""/>
+                <input type="text" size="50" class="phoneNumber" placeholder="Phone Number" value=""/>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="password">
+                <input type="text" size="20" class="passwordValue" placeholder="Password" value="">
+                    <input type="text" size="20" class="passwordValue" placeholder="Confirm Password" value="">
+                </div>
+                <button type="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

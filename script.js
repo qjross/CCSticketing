@@ -19,4 +19,9 @@ $("#burnsLink").mouseenter(function(){
  $(this).css({"background-color": "#06A6E0", color: "#EBE343"});
  });
     
+    $("#burnsLink").mouseleave(function(){
+ $(this).off;
+ });
+    
+    
     });
