@@ -35,7 +35,7 @@
 
 #kmhs{
   display: flex;
-  background-color: #EFE14D;
+  background-color: 2F2F2F;
     color:#000000;
  justify-content:center;
 }
@@ -105,7 +105,15 @@ table, th, td{
 
 #accountBar{
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
+    }
+
+.accountSettings{
+    color:black;
+}
+
+.accountCreate{
+    color:black;
 }
 
 .form-content
@@ -122,3 +130,60 @@ table, th, td{
     background-color:silver;
     color:white;
 }
+
+#burnsProfile{
+    width:400px;
+    height:400px;
+    border:20px;
+    border-style:solid;
+    
+}
+
+#crestProfile{
+    width:400px;
+    height:400px;
+    border:20px;
+    border-style:solid;
+    
+}
+
+#kmProfile{
+    width:400px;
+    height:400px;
+    border:20px;
+    border-style:solid;
+    
+    
+}
+
+#shelbyProfile{
+    width:400px;
+    height:400px;
+    border:20px;
+    border-style:solid;
+    
+}
+
+*{
+    
+font-family:Helvetica;
+}
+
+#shsLink{
+    border:10px;
+    }
+
+
+#kmLink{
+    border:10px;
+    }
+
+
+#crestLink{
+    border:10px;
+    }
+
+
+#burnssLink{
+    border: 10px;
+    }

@@ -1,0 +1,28 @@
+html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS, other stylesheet and scripts -->
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    
+    <div class="flex-container" id="kmhs">
+        <img src="nchsaa.png" class="img-responsive nchsaaImage" alt="NCHSAA">
+       <div><a href="#" class="nav-link">Shelby</div>
+        <div><a href="#" class="nav-link">Kings Mountain</a></div>
+        <div><a href="#" class="nav-link">Home</a></div>
+        <div><a href="#" class="nav-link">Crest</a></div>
+        <div><a href="#" class="nav-link">Burns</a></div>
+    </div>
+</head>
+<body>
+      <ul class="footballSchedule2019">
+    <div class="col-sm-4">
+          <p>Freedom at Shelby</p>
+          </div>
+    </ul>
+</body>
+</html>
