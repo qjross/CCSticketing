@@ -202,3 +202,23 @@ font-family:Helvetica;
 #burnsLink{
     border: 10px;
     }
+
+.btn-KM{
+    background-color:#2F2F2F;
+    color: #EBE343;
+}
+
+.btn-Shelby{
+    background-color:#000000;
+    color: #FFFFFF;
+}
+
+.btn-Crest{
+    background-color:#0C3726;
+        color:#FFFFFF;
+}
+
+.btn-Burns{
+    background-color: #067191;
+    color: #FED032;
+}
