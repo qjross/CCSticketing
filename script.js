@@ -3,7 +3,7 @@ var n = 0
 $(document).ready(function() {
 
 $("#shsLink").mouseover(function(){
- $(this).css({"background-color": "#000000", color: "996600"});
+ $(this).css({"background-color": "#000000", color: "#996600"});
  });
     
  $("#shsLink").mouseout(function() {
